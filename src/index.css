@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Parisienne&family=Bad+Script&family=Playfair+Display&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --font-parisienne : Parisienne, sans-serif;
+  --font-playfair-display : Playfair Display, sans-serif;
+  --font-bad-spript : Bad Script, sans-serif;
+}
+
+
+
+@layer base {
+  body{
+    background: #f5eadb;
+    color: #1f0f02;
+  }
+  h1 {
+    @apply text-center text-white text-shadow-lg/30 text-[min(12vw,100px)];
+  }
+  h2 {
+    @apply text-[min(10vw,60px)] font-bold lg:max-w-lg text-center font-bad-spript;
+  }
+}
+
+@layer component {
+  .hero{
+    @apply h-screen bg-[url('/hero_image.JPG')] bg-cover bg-center flex justify-center items-center font-bad-spript pb-18 font-extrabold;
+  }
+
+  .max-container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  @layer utilities {
+    .padding {
+      @apply sm:px-16 px-8 sm:py-24 py-12;
+    }
+  
+    .padding-x {
+      @apply sm:px-16 px-8;
+    }
+  
+    .padding-y {
+      @apply sm:py-24 py-12;
+    }
+  
+    .padding-l {
+      @apply sm:pl-16 pl-8;
+    }
+  
+    .padding-r {
+      @apply sm:pr-16 pr-8;
+    }
+  
+    .padding-t {
+      @apply sm:pt-24 pt-12;
+    }
+  
+    .padding-b {
+      @apply sm:pb-24 pb-12;
+    }
+
+    .bg-wedding-brown {
+      background-color: #1f0f02;
+      color: #f5eadb;
+    }
+  }
+}
