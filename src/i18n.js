@@ -17,11 +17,11 @@ const resources = {
             },
             planning: {
                 title: "Planning de la journée",
-                firstParagraph: "C’est avec beaucoup de bonheur que nous vous accueillerons à la ferme d’Ecavée à partir de 15h00.",
+                firstParagraph: "C’est avec beaucoup de bonheur que nous vous accueillerons à la ferme d’Ecavée en début d'après-midi",
                 secondParagraph: "Nous avons hâte de partager avec vous cette journée si spéciale, remplie d’amour, de rires et de beaux souvenirs à créer ensemble.",
                 ceremony: {
                     title: "Cérémonie",
-                    description: "La journée commencera avec la cérémonie, directement sur le lieu de réception. Un moment que nous avons voulu à notre image, et que nous avons hâte de partager avec vous !"
+                    description: "La journée commencera avec la cérémonie, directement sur le lieu de réception. Un moment que nous avons voulu à notre image et que nous avons hâte de partager avec vous."
                 },
                 dinner: {
                     title: "Repas",
@@ -58,7 +58,7 @@ const resources = {
                     question: "Y a t'il un dress code ?",
                     answer: {
                         firstParagraph: "Aucun dress code imposé, mais une tenue soignée et élégante sera la bienvenue.",
-                        secondParagraph: "Nous vous remercions simplement d’éviter le blanc ou les teintes qui s’en rapprochent.",
+                        secondParagraph: "Nous vous remercions simplement d’éviter le blanc, le marron ou les teintes qui s’en rapprochent.",
                         thirdParagraph: "La cérémonie ayant lieu en extérieur (sauf pluie), pensez à prévoir une tenue adaptée à la météo. 👗👞☀️",
 
                     }
@@ -148,7 +148,7 @@ const resources = {
                     question: "Tem dress code?",
                     answer: {
                         firstParagraph: "Não temos regras rígidas, mas uma roupa bonita e elegante será super bem-vinda !",
-                        secondParagraph: "Só pedimos para evitar o branco ou tons muito parecidos.",
+                        secondParagraph: "Só pedimos para evitar o branco, marrom ou tons muito parecidos.",
                         thirdParagraph: "Como a cerimônia será ao ar livre (a não ser que chova!), escolha um look confortável e adequado ao clima. 👗👞☀️"
                     }
                 },
