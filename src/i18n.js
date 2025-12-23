@@ -17,7 +17,7 @@ const resources = {
             },
             planning: {
                 title: "Planning de la journée",
-                firstParagraph: "C’est avec beaucoup de bonheur que nous vous accueillerons à la ferme d’Ecavée en début d'après-midi",
+                firstParagraph: "C’est avec beaucoup de bonheur que nous vous accueillerons à la ferme d’Ecavée à 15h00",
                 secondParagraph: "Nous avons hâte de partager avec vous cette journée si spéciale, remplie d’amour, de rires et de beaux souvenirs à créer ensemble.",
                 ceremony: {
                     title: "Cérémonie",
@@ -51,7 +51,7 @@ const resources = {
                 confirmationLimit: {
                     question: "Combien de temps ai-je pour confirmer notre présence ?",
                     answer: {
-                        firstParagraph: "Janvier 2026. Passé ce délai, vous risquez de vous retrouver entre le DJ et la porte de la cuisine ! 😅"
+                        firstParagraph: "Mars 2026. Passé ce délai, vous risquez de vous retrouver entre le DJ et la porte de la cuisine ! 😅"
                     }
                 },
                 dressCode: {
@@ -107,7 +107,7 @@ const resources = {
             },
             planning: {
                 title: "Nosso dia especial, passo a passo",
-                firstParagraph: "Com muito carinho, esperamos por vocês na Fazenda Ecavée a partir das 15h.",
+                firstParagraph: "Com muito carinho, esperamos por vocês na Ferme d'Ecavée as 15h00.",
                 secondParagraph: "Mal podemos esperar para viver esse dia tão especial ao lado de pessoas queridas, cheio de sorrisos, amor e momentos inesquecíveis !",
                 ceremony: {
                     title: "Cerimônia",
@@ -141,7 +141,7 @@ const resources = {
                 confirmationLimit: {
                     question: "Até quando posso confirmar minha presença?",
                     answer: {
-                        firstParagraph: "Até janeiro de 2026. Depois disso... pode ser que só sobre um lugar entre o DJ e a cozinha ! 😅"
+                        firstParagraph: "Até março de 2026. Depois disso... pode ser que só sobre um lugar entre o DJ e a cozinha ! 😅"
                     }
                 },
                 dressCode: {
